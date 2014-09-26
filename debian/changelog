@@ -1,0 +1,8 @@
+ros-hydro-hrpsys-gazebo-general (0.1.1-0raring) raring; urgency=high
+
+  * Initial release of hrpsys_gazebo_general
+  * Contributors: Kei Okada, Ryohei Ueda, YoheiKakiuchi, Masaki Murooka, Shinichiro Noda
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Thu, 25 Sep 2014 15:00:00 -0000
+
+
