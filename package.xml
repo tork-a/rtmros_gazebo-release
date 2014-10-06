@@ -1,6 +1,6 @@
 <package>
   <name>hrpsys_gazebo_general</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>hrpsys_gazebo_general</description>
   <maintainer email="youhei@jsk.t.u-tokyo.ac.jp">Yohei Kakiuchi</maintainer>
   <maintainer email="k-okada@jsk.t.u-tokyo.ac.jp">Kei Okada</maintainer>
@@ -17,9 +17,15 @@
 
   <build_depend>hrpsys_ros_bridge</build_depend>
   <build_depend>hrpsys_gazebo_msgs</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>gazebo_plugins</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
 
   <run_depend>hrpsys_ros_bridge</run_depend>
   <run_depend>hrpsys_gazebo_msgs</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_msgs</run_depend>
 
   <export>
   </export>
