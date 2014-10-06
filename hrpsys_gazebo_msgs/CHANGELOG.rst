@@ -2,6 +2,9 @@
 Changelog for package hrpsys_gazebo_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2014-10-06)
+------------------
+
 0.1.1 (2014-09-26)
 ------------------
 * add ref_position/velocity to RobotState.msg
