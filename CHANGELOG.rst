@@ -2,6 +2,9 @@
 Changelog for package eusgazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2014-10-12)
+------------------
+
 0.1.2 (2014-10-06)
 ------------------
 * add gazebo_ros, gazebo_msgs, and gazebo_plugins to dependency of hrpsys_gazebo_general, eusgaebo.
