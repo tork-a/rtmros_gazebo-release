@@ -1,7 +1,0 @@
-moveit_setup_assistant_config:
-  URDF:
-    relative_path: config/STARO.urdf
-  SRDF:
-    relative_path: config/STARO.srdf
-  CONFIG:
-    generated_timestamp: 1419069539
