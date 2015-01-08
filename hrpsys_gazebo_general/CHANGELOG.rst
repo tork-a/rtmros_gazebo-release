@@ -2,6 +2,17 @@
 Changelog for package hrpsys_gazebo_general
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2015-01-08)
+------------------
+* update CHANGELOG.rst
+* add dl to target_link_libraries
+* add SPAWN_MODEL and fix for PAUSE
+* change model name when spawning robot model
+* update setup.sh
+* fix using SPAWN_MODEL argument
+* udpate PubQueue.h for matching gazebo_ros_pkgs
+* Contributors: Kei Okada, YoheiKakiuchi
+
 0.1.4 (2014-10-23)
 ------------------
 * install compile-robot-model-for-gazebo.cmake

@@ -2,6 +2,12 @@
 Changelog for package samplerobot_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2015-01-08)
+------------------
+* update CHANGELOG.rst
+* update moveit_config for samplerobot using latest(hydro-devel) setup_assistant
+* Contributors: Kei Okada, YoheiKakiuchi
+
 0.1.4 (2014-10-23)
 ------------------
 
