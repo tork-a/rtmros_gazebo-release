@@ -1,0 +1,60 @@
+ros-hydro-hrpsys-gazebo-general (0.1.8-0quantal) quantal; urgency=high
+
+  * fix CHANGELOG order, https://github.com/ros/rosdistro/pull/6794
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Thu, 08 Jan 2015 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.7-0quantal) quantal; urgency=high
+
+  * add pthread for link only for raling 64bit
+  * Contributors: Kei Okada
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Thu, 08 Jan 2015 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.6-0quantal) quantal; urgency=high
+
+  * update CHANGELOG.rst
+  * add dl to target_link_libraries
+  * add SPAWN_MODEL and fix for PAUSE
+  * change model name when spawning robot model
+  * update setup.sh
+  * fix using SPAWN_MODEL argument
+  * udpate PubQueue.h for matching gazebo_ros_pkgs
+  * Contributors: Kei Okada, YoheiKakiuchi
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Wed, 07 Jan 2015 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.4-0quantal) quantal; urgency=high
+
+  * install compile-robot-model-for-gazebo.cmake
+  * deletece unnecessary file. added xacro file
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Wed, 22 Oct 2014 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.3-0quantal) quantal; urgency=high
+
+  * set CMAKE_BUILD_TYPE to install, also support RelWithDebInfo for deb release
+  * install files
+  * add compile_robot_model_for_gazebo.cmake and generate model and launch file for samplerobot simulation.
+  * Contributors: Kei Okada, Masaki Murooka
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Sat, 11 Oct 2014 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.2-0quantal) quantal; urgency=high
+
+  * add gazebo_ros, gazebo_msgs, and gazebo_plugins to dependency of hrpsys_gazebo_general, eusgaebo.
+  * Merge pull request #111 from k-okada/hrpEC_with_hrpIo_gazebo
+    compile hrpEC liked with hrpIo_gazebo
+  * add COMPILE_DEFINITIONS for hrpEC
+  * Contributors: Kei Okada, Yohei Kakiuchi, Masaki Murooka
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Sun, 05 Oct 2014 15:00:00 -0000
+
+ros-hydro-hrpsys-gazebo-general (0.1.1-0quantal) quantal; urgency=high
+
+  * Initial release of hrpsys_gazebo_general
+  * Contributors: Kei Okada, Ryohei Ueda, YoheiKakiuchi, Masaki Murooka, Shinichiro Noda
+
+ -- Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>  Thu, 25 Sep 2014 15:00:00 -0000
+
+
