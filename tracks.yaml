@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:tork-a/rtmros_gazebo-release
 tracks:
   hydro:
     actions:
