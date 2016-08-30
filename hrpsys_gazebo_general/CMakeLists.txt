@@ -19,7 +19,6 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 ## Build only gazebo iob
-find_package(PkgConfig)
 pkg_check_modules(omniorb omniORB4 REQUIRED)
 pkg_check_modules(omnidynamic omniDynamic4 REQUIRED)
 pkg_check_modules(openrtm_aist openrtm-aist REQUIRED)
@@ -77,6 +76,9 @@ install(TARGETS PubTfPlugin LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION
 add_library(ThermoPlugin src/ThermoPlugin.cpp)
 add_dependencies(ThermoPlugin hrpsys_gazebo_msgs_gencpp)
 install(TARGETS ThermoPlugin LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION})
+add_library(LIPPlugin src/LIPPlugin.cpp)
+add_dependencies(LIPPlugin hrpsys_gazebo_msgs_gencpp)
+install(TARGETS LIPPlugin LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION})
 
 ## Convert robot models
 include(${PROJECT_SOURCE_DIR}/cmake/compile_robot_model_for_gazebo.cmake)
@@ -91,5 +93,5 @@ generate_gazebo_urdf_file(${hrpsys_ros_bridge_PACKAGE_PATH}/models/SampleRobot.d
 add_custom_target(all_robots_compile ALL DEPENDS ${compile_urdf_robots})
 
 ## install
-install(DIRECTORY launch scripts worlds config DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION} USE_SOURCE_PERMISSIONS)
+install(DIRECTORY launch scripts worlds config robot_models DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION} USE_SOURCE_PERMISSIONS)
 install(PROGRAMS setup.sh DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
