@@ -2,6 +2,9 @@
 Changelog for package hrpsys_gazebo_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.12 (2017-01-11)
+-------------------
+
 0.1.11 (2016-08-30)
 -------------------
 * [hrpsys_gazebo_msgs] add message and service for LIPPlugin.
