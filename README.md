@@ -1,3 +1,39 @@
+## rtmros_gazebo (indigo) - 0.1.12-0
+
+The packages in the `rtmros_gazebo` repository were released into the `indigo` distro by running `./send_to_bloom.py start-jsk rtmros_gazebo` on `Wed, 11 Jan 2017 14:05:11 -0000`
+
+These packages were released:
+- `eusgazebo`
+- `hrpsys_gazebo_general`
+- `hrpsys_gazebo_msgs`
+- `staro_moveit_config`
+
+These packages were explicitly ignored:
+- `hrpsys_gazebo_tutorials`
+- `hrpsys_gazebo_atlas`
+- `samplerobot_moveit_config`
+- `hrp2jsk_moveit_config`
+- `hrp2jsknt_moveit_config`
+- `hrp2jsknts_moveit_config`
+- `hrp2w_moveit_config`
+
+Version of package(s) in repository `rtmros_gazebo`:
+
+- upstream repository: https://github.com/start-jsk/rtmros_gazebo.git
+- release repository: https://github.com/tork-a/rtmros_gazebo-release.git
+- rosdistro version: `0.1.11-0`
+- old version: `0.1.11-0`
+- new version: `0.1.12-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## rtmros_gazebo (indigo) - 0.1.11-0
 
 The packages in the `rtmros_gazebo` repository were released into the `indigo` distro by running `/var/lib/jenkins/send_to_bloom.py start-jsk rtmros_gazebo` on `Tue, 30 Aug 2016 11:47:24 -0000`
